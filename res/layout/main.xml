@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal">
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Användarnamn">
+        </EditText>
+        <EditText
+                android:id="@+id/password"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:password="true"
+                android:hint="Lösenord">
+        </EditText>
+        <Button
+                android:id="@+id/login"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Logga in">
+        </Button>
+    </LinearLayout>
+</RelativeLayout>
+
