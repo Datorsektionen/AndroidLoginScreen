@@ -8,6 +8,8 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        /* Set the layout we want to use in the activity. Here we use login.xml. */
         setContentView(R.layout.login);
     }
 }
